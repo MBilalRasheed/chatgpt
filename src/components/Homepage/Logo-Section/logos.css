@@ -1,0 +1,50 @@
+.parentLogos {
+  max-width: 82% !important;
+  background: #ffffff;
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+  padding-top: 1.2% !important;
+  padding-bottom: 1.2% !important;
+  position: relative;
+  top: -54px;
+  border-radius: 12px;
+}
+.parentLogos h1 {
+  color: aqua;
+  margin-bottom: 0;
+}
+.Adobe {
+  width: 52%;
+  margin: 0px;
+}
+.Microsoft {
+  width: 54%;
+  margin: 0px;
+}
+.ATTlogo {
+  width: 40%;
+  margin: 0px;
+}
+.Disnep {
+  width: 40%;
+  margin: 0px;
+}
+.Intel {
+  width: 36%;
+  margin: 0px;
+}
+@media screen and (max-width: 1200px) {
+  .parentLogos {
+    top: 0;
+  }
+  .parentLogos img {
+    width: 32%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 601px) {
+  .lastTextBox p {
+    font-size: 16px;
+    text-align: center;
+  }
+}

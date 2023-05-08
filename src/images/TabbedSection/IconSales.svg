@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 109 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1455.85,-4951.85)">
+        <g transform="matrix(4.50503,0,0,4.50503,1455.85,-18366.1)">
+            <g id="bound" transform="matrix(1,0,0,1,0,5175.99)">
+                <rect x="0" y="0" width="24" height="24" style="fill:none;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-0.887897,-0.887897)">
+                <g id="Rectangle-62-Copy" transform="matrix(1,0,0,1,2.27374e-13,5175.99)">
+                    <path d="M15,4.888C15,4.398 14.602,4 14.112,4L12.888,4C12.398,4 12,4.398 12,4.888L12,16.112C12,16.602 12.398,17 12.888,17L14.112,17C14.602,17 15,16.602 15,16.112L15,4.888Z" style="fill-opacity:0.3;"/>
+                </g>
+                <g id="Rectangle-62-Copy-2" transform="matrix(1,0,0,1,2.27374e-13,5175.99)">
+                    <path d="M10,9.888C10,9.398 9.602,9 9.112,9L7.888,9C7.398,9 7,9.398 7,9.888L7,16.112C7,16.602 7.398,17 7.888,17L9.112,17C9.602,17 10,16.602 10,16.112L10,9.888Z" style="fill-opacity:0.3;"/>
+                </g>
+                <g id="Path-95" transform="matrix(1,0,0,1,2.27374e-13,5175.99)">
+                    <path d="M5,19L20,19C20.552,19 21,19.448 21,20C21,20.552 20.552,21 20,21L4,21C3.448,21 3,20.552 3,20L3,4C3,3.448 3.448,3 4,3C4.552,3 5,3.448 5,4L5,19Z" style="fill-rule:nonzero;"/>
+                </g>
+                <g id="Rectangle-62-Copy-4" transform="matrix(1,0,0,1,2.27374e-13,5175.99)">
+                    <path d="M20,11.888C20,11.398 19.602,11 19.112,11L17.888,11C17.398,11 17,11.398 17,11.888L17,16.112C17,16.602 17.398,17 17.888,17L19.112,17C19.602,17 20,16.602 20,16.112L20,11.888Z" style="fill-opacity:0.3;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 81 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2031.09,-4960.91)">
+        <g transform="matrix(4.22874,0,0,5.09679,-7645.39,-19534.3)">
+            <g id="Rectangle-7-Copy" transform="matrix(1,0,0,1,2286.27,4802.01)">
+                <path d="M21,4.785C21,4.352 20.576,4 20.054,4L2.946,4C2.424,4 2,4.352 2,4.785L2,7.215C2,7.648 2.424,8 2.946,8L20.054,8C20.576,8 21,7.648 21,7.215L21,4.785Z"/>
+            </g>
+        </g>
+        <g transform="matrix(4.22874,0,0,5.09679,-7645.39,-19534.3)">
+            <g id="Combined-Shape" transform="matrix(1,0,0,1,2286.27,4802.01)">
+                <path d="M3,10L6,10C6.552,10 7,10.448 7,11L7,19C7,19.552 6.552,20 6,20L3,20C2.448,20 2,19.552 2,19L2,11C2,10.448 2.448,10 3,10ZM10,10L13,10C13.552,10 14,10.448 14,11L14,19C14,19.552 13.552,20 13,20L10,20C9.448,20 9,19.552 9,19L9,11C9,10.448 9.448,10 10,10ZM17,10L20,10C20.552,10 21,10.448 21,11L21,19C21,19.552 20.552,20 20,20L17,20C16.448,20 16,19.552 16,19L16,11C16,10.448 16.448,10 17,10Z" style="fill-opacity:0.3;"/>
+            </g>
+        </g>
+    </g>
+</svg>

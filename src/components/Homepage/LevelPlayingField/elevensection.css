@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "PostGrotesk-Medium";
+  src: url("../../.././fonts/postgrotesk/PostGrotesk-Medium.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "PostGrotesk-Bold";
+  src: url("../../.././fonts/postgrotesk/PostGrotesk-Bold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "NeueHaasUnicaPro-Medium";
+  src: url("../../.././fonts/NeueHaasUnicaPro-Medium.otf") format("opentype");
+}
+.levelPlaying {
+  max-width: 100% !important;
+  padding-left: 9% !important;
+  padding-right: 9% !important;
+  padding-top: 2% !important;
+  padding-bottom: 6% !important;
+}
+.levelPlaying .clickTemplate {
+  width: 600px;
+  margin: auto;
+  margin-right: 0;
+}
+.levelPlaying .innerTemplate {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 54%;
+  rotate: -2deg;
+  position: relative;
+  right: -100px;
+}
+.levelPlaying .innerTemplate p {
+  padding: 10px 4px;
+  background: #f33233;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "PostGrotesk-Medium";
+}
+.levelPlaying .planning p {
+  background: #f3dce4;
+  text-align: left;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #000000;
+  padding: 10px;
+}
+.levelPlaying .restBox {
+  text-align: right;
+  width: 98%;
+  margin: auto;
+  margin-left: 0;
+}
+.levelPlaying .restBox h1 {
+  font-size: 56px;
+  color: #000000;
+  font-weight: 600;
+  line-height: 54px;
+  font-family: "PostGrotesk-Bold";
+}
+.levelPlaying .restBox h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 24px;
+  font-family: "PostGrotesk-Bold";
+}
+.levelPlaying .restBox h4 {
+  font-size: 24px;
+  color: #000000;
+  margin: 0px 0px 20px 0px;
+  line-height: 45px;
+  font-family: "NeueHaasUnicaPro-Medium";
+}
+.levelPlaying .restBox .para {
+  color: black !important;
+  padding: 0;
+  max-width: 100% !important;
+  font-weight: 600;
+}
+.levelPlaying .checkMark {
+  width: 2% !important;
+  margin-right: 8px !important;
+  margin: 0;
+}
+/* media query */
+@media screen and (max-width: 1600px) {
+  .levelPlaying .restBox h1 {
+    font-size: 50px;
+  }
+  .levelPlaying .restBox h2 {
+    font-size: 42px;
+  }
+  .levelPlaying .restBox h4 {
+    font-size: 18px;
+    color: #000000;
+    margin: 20px 0;
+    line-height: 36px;
+  }
+}
+.levelPlaying .KeyboardCoding {
+  width: 70%;
+}
+@media screen and (max-width: 1200px) {
+  .levelPlaying .clickTemplate {
+    width: 70%;
+    margin: auto;
+    margin-right: auto;
+  }
+  .levelPlaying .restBox {
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 20px;
+  }
+  .levelPlaying .restBox .css-1c0rg7l {
+    justify-content: center;
+  }
+  .levelPlaying .restBox h1 {
+    font-size: 40px;
+  }
+  .levelPlaying .restBox h2 {
+    font-size: 34px;
+  }
+  .levelPlaying .restBox .checkMark {
+    width: 4% !important;
+    margin: 0 !important;
+  }
+  .extenAllBox {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .levelPlaying .clickTemplate {
+    width: 100%;
+    margin: auto;
+    margin-right: auto;
+  }
+  .levelPlaying .restBox h1 {
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 14px;
+  }
+  .levelPlaying .restBox h2 {
+    font-size: 24px;
+  }
+  .levelPlaying .KeyboardCoding {
+    width: 280px;
+  }
+  .levelPlaying .innerTemplate {
+    width: 100%;
+    right: 0;
+  }
+  .extenAllBox {
+    display: block !important;
+  }
+  .InstallForFree {
+    margin: 0;
+  }
+  .rightInfoBlock {
+    width: 100% !important;
+    margin-top: 40px !important;
+    margin-right: 0px !important;
+  }
+  .rightInfoBlock .parentWrap h2 {
+    margin-top: 20px;
+  }
+}
+.rightInfoBlock .parentWrap {
+  height: 350px;
+  border: 1px solid #a9a9a9b5;
+  border-radius: 4px;
+}
+.rightInfoBlock .likeComment {
+  position: sticky;
+  top: 100%;
+}
+.rightInfoBlock .badge p {
+  color: #ffffff;
+  font-family: "NeueHaasUnicaPro-Medium";
+}
+
+.InstallForFree {
+  width: 228px;
+}
+
+.rightInfoBlock {
+  width: 70%;
+  margin: auto;
+  margin-right: 10%;
+}
+.levelPlaying .extenAllBox {
+  display: flex;
+  justify-content: end;
+}
+.extenAllBox h6 {
+  font-family: NeueHaasUnicaPro-Medium;
+  font-size: 16px;
+  margin-top: 10px;
+}
