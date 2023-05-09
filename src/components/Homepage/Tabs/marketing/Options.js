@@ -10,7 +10,7 @@ import IconMessages from '../../../../images/IconMessages.svg'
 import IconLikeDislike from '../../../../images/IconLikeDislike.svg'
 import IconCopyText from '../../../../images/IconCopyText.svg'
 import { cards } from './homepageInfoCards';
-import { Grid } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 import './BoxStyle.css'
 
 
@@ -75,6 +75,6 @@ export default function OutlinedCard(props) {
                     </Grid>
                 ))
             }
-        </Grid >
+        </Grid>
     );
 }

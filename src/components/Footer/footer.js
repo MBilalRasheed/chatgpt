@@ -26,13 +26,9 @@ const Footer = () => {
               <p className="leftHeadings4">Subscribe to a Premium Plan.</p>
             </div>
           </div>
-
-        </div>
-        <div className="row-class">
+          <div className="row-class">
           <div className="bizbio">
-            <div style={{ marginTop: '30px' }}>
               <img src={mainlogo} />
-            </div>
             <p >
               This will be the<br />
               Biz Bio Tagline right here.
@@ -81,6 +77,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        </div>
+       
 
       </div>
     </div>

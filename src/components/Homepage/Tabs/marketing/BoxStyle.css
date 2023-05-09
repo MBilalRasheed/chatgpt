@@ -1,3 +1,36 @@
+
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 30%;
+}
+.supercharge {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: 0.00938em;
+  padding-top: 80px;
+}
+.get-more-done {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 65px;
+  font-weight: 600;
+
+}
+
+.TabContainer {
+  max-width: 100% !important;
+  padding-left: 9% !important;
+  padding-right: 9% !important;
+  padding-top: 2% !important;
+  padding-bottom: 6% !important;
+}
+
 .parentWrap {
     position: relative;
     background: #ffffff;
@@ -7,6 +40,7 @@
     border: 3px solid #ffffff;
     padding-bottom: 15px;
   }
+  
   .parentWrap:hover {
     border: 3px solid #088c75;
   }
@@ -149,10 +183,10 @@
     .parentWrap {
       padding: 10px;
     }
-    .badge {
+    /* .badge {
       position: unset;
       width: 60%;
-    }
+    } */
     .likeComment {
       grid-template-columns: 30% 30% 30%;
       justify-content: flex-start;
@@ -165,4 +199,76 @@
     .copybox img {
       margin-top: 10px !important;
     }
+
+    .info-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 100%;
   }
+  }
+
+  @media screen and (max-width: 1440px) {
+    .supercharge {
+      margin: 0;
+      font-family: "Roboto","Helvetica","Arial",sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 1;
+      letter-spacing: 0.00938em;
+      padding-top: 80px;
+    }
+    .info-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 30%;
+      padding: 10px;
+      
+  }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .info-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .TabContainer {
+    max-width: 100% !important;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  }
+
+@media screen and (max-width: 425px) {
+  .supercharge {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+    padding-top: 1px;
+  }
+
+  .get-more-done {
+    font-size: 13px;
+    padding-top: 1px;
+    font-weight: 600;
+
+  }
+
+  .TabContainer {
+    max-width: 100% !important;
+    padding: 0%
+  }
+}
+
+
+  

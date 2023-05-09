@@ -8,7 +8,6 @@ import Offers from './Offers';
 const Root = styled(Stack)(({ theme }) => {
     return {
         direction: theme.breakpoints.up('md') ? 'row' : 'column',
-        padding: theme.spacing(5),
         alignItems:'flex-start'
     }
 });

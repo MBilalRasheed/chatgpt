@@ -3,7 +3,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 
-import { Icon } from '@mui/material'
+import { Container, Icon } from '@mui/material'
 import IconMarketers from '../../../images/TabbedSection/IconMarketers.svg';
 import IconProductivity from '../../../images/TabbedSection/IconProductivity.svg';
 import IconSales from '../../../images/TabbedSection/IconSales.svg';
@@ -78,7 +78,8 @@ export default function TabbedInterface() {
     };
 
     return (
-        <Box px={10} mx={10}>
+        <Container className='TabContainer'>
+        <Box>
             <Tabs variant='scrollable' className={classes.tabs} value={value} onChange={handleChange} aria-label="tabs">
                 {
                     tabs.map((tab, index) =>
@@ -96,5 +97,6 @@ export default function TabbedInterface() {
             })}
 
 
-        </Box>)
+        </Box>
+        </Container>)
 }
