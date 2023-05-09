@@ -92,16 +92,16 @@
 }
 
 .fetures-flex {
-    /* display: flex;
-    flex-direction: column; */
     margin: 0px 15px;
     padding: 10px;
-    /* height: 200px; */
+}
+.fetures-flex h4 {
+    margin-top: 10px;
 }
 
 .fetures-flex p {
-  margin: 0px;
-  color: white;
+    margin: 0px;
+    color: #b1b1b1;
 }
 
 

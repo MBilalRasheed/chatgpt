@@ -37,7 +37,7 @@ const Footer = () => {
 
           <div className="headerName">
             <div className="fetures-flex">
-              <p> Features</p>
+              <h4> Features</h4>
               <p> Use Case #1</p>
               <p> Use Case #2</p>
               <p> Use Case #3</p>
@@ -45,31 +45,31 @@ const Footer = () => {
               <p> Use Case #4</p>
             </div>
             <div className="fetures-flex">
-              <p> Pricings</p>
+              <h4> Pricings</h4>
               <p> FAQs</p>
               <p> Referral Program</p>
               <p> Testimonials</p>
             </div>
             <div className="fetures-flex">
-              <p> Prompts</p>
+              <h4> Prompts</h4>
               <p> CATEGORY #1</p>
               <p> CATEGORY #2</p>
               <p> CATEGORY #3</p>
             </div>
             <div className="fetures-flex">
-              <p> About</p>
+              <h4> About</h4>
               <p> Company</p>
               <p> About Us</p>
               <p> Contact Us</p>
 
             </div>
             <div className="fetures-flex">
-              <p> Resources</p>
+              <h4> Resources</h4>
               <p> Blog</p>
               <p> Webinars</p>
             </div>
             <div className="fetures-flex">
-              <p> Community</p>
+              <h4> Community</h4>
               <p> Docs</p>
               <p> Zendesk</p>
               <p> Status</p>
